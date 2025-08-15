@@ -128,11 +128,13 @@ export default function ProgramDetail() {
                   <div className="w-20 h-20 bg-muted rounded-lg flex-shrink-0"></div>
                   <div>
                     <p className="text-sm leading-relaxed text-muted-foreground">
-                      Estimados estudiantes, es un honor presentarles nuestro programa de maestría, 
-                      diseñado con los más altos estándares académicos y orientado hacia la excelencia 
-                      profesional y la investigación aplicada.
+                      "La Escuela de Ciencias e Ingeniería de UNEMI se complace en ofrecer programas de posgrado 
+                      de excelencia académica, diseñados para formar profesionales líderes en sus respectivas áreas. 
+                      Nuestro compromiso es brindar una educación integral que combine la teoría con la práctica, 
+                      preparando a nuestros graduados para enfrentar los desafíos del mundo moderno."
                     </p>
-                    <p className="text-sm font-semibold mt-3">Dr. Juan Pérez - Decano</p>
+                    <p className="text-sm font-semibold mt-3">{program.director}</p>
+                    <p className="text-xs text-muted-foreground">Director de la Escuela</p>
                   </div>
                 </div>
               </CardContent>
